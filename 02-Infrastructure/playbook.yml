@@ -1,0 +1,9 @@
+# ---
+# - hosts: master
+#   become: yes
+#   tasks:
+#     - name: Install xxx
+#       apt:
+#         pkg:
+#         - net-tools
+#         update_cache: yes

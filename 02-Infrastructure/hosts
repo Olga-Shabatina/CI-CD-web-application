@@ -1,0 +1,12 @@
+# Master server
+master   ansible_host=master
+
+# App Servers
+frontend     ansible_host=webapp-front
+backend   ansible_host=webapp-back
+
+# Database Servers
+db   ansible_host=webapp-db
+
+# QA server
+qa   ansible_host=qa-server
